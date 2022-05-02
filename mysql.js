@@ -3,10 +3,10 @@ const mysql = require('mysql')
 
 var pool = mysql.createPool({
     "connectionLimit": 1000,
-    "user" : "root",
-    "password" : "",
-    "database" : "pi2",
-    "host" : "localhost",
+    "user" : "b17c2b4b480561",
+    "password" : "9cfd3044",
+    "database" : "heroku_87aabbbb53c029c",
+    "host" : "us-cdbr-east-05.cleardb.net",
     "port" : 3306,
 
     // connectionLimit: 1000,
